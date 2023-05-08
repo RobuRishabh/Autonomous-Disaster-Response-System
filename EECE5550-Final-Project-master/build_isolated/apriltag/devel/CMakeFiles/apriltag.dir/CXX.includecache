@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ssrh98/projectk/src/apriltag/common/pthreads_cross.cpp
+common/pthreads_cross.h
+/home/ssrh98/projectk/src/apriltag/common/common/pthreads_cross.h
+time.h
+-
+unistd.h
+-
+
+/home/ssrh98/projectk/src/apriltag/common/pthreads_cross.h
+stdbool.h
+-
+windows.h
+-
+pthread.h
+-
+sched.h
+-
+

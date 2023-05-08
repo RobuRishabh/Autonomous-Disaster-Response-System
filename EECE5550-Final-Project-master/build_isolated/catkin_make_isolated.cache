@@ -1,0 +1,2 @@
+apriltag:apriltag_ros/apriltag_ros:my_nav:rplidar_ros
+-G Unix Makefiles -DCATKIN_DEVEL_PREFIX=/home/ssrh98/projectk/devel_isolated -DCMAKE_INSTALL_PREFIX=/home/ssrh98/projectk/install_isolated

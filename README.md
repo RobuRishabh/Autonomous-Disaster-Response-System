@@ -1,2 +1,13 @@
 # Autonomous Disaster Response System
- This project involves designing and implementing a complete autonomous system for performing reconnaissance in a simulated disaster environment. The system must generate a complete map of the environment and locate any victims present in the environment using AprilTags. The environment is represented using an occupancy grid map. The system can be constructed using any off-the-shelf components such as the gmapping package for building occupancy grid maps, the move base package from the ROS navigation stack for generating and following motion plans, and/or a frontier exploration package such as explore lite. The project includes modifying explore lite to address the goal of searching for victims and implementing approaches for ensuring accurate pose estimation of each detected AprilTag. The deliverables include ROS nodes, launch files, a group report, and a short demonstration video of the turtlebot performing the task.
+ This project delves into the growing significance of
+mobile robots in disaster response over the past two decades. By
+enhancing situational awareness and control in potentially dangerous
+environment (such as the interior of a collapsed building), these
+robots prove invaluable to emergency response teams. One major
+application of mobile robots is reconnaissance, where they are deployed
+to explore hazardous environments and identify potential threats and
+survivors (victims). The data gathered by mobile robots facilitates the
+formulation of effective action plans that minimize risks to emergency
+personnel.
+
+
